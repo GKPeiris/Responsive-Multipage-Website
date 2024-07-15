@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduford University</title>
+    <link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+<!-------- course -------->
+
+<section class="course">
+    <h1>Coursers We Offer</h1>
+    <p>Computer Science, Data Science, Programming, Networking</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Explore the core concepts of computing, including algorithms, data structures, and software development, 
+                in our comprehensive Computer Science course</p>
+        </div>
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Explore the core concepts of computing, including algorithms, data structures, and software development, 
+                in our comprehensive Computer Science course</p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Explore the core concepts of computing, including algorithms, data structures, and software development, 
+                in our comprehensive Computer Science course</p>
+        </div>
+    </div>
+</section>
+
+<!-------- facilities -------->
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Discover Our Facilities, where state-of-the-art infrastructure meets a supportive learning environment. 
+        Our campus boasts modern classrooms, advanced laboratories, comprehensive libraries, 
+        and vibrant communal spaces designed to enhance both academic and personal growth.</p>
+    
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.png">
+            <h3>World Class library</h3>
+            <p>Welcome to our Library, a hub of knowledge and discovery. 
+                <br>Our facility offers an extensive collection of books, journals, and digital resources across various fields of study.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/basketball.png">
+            <h3>Largest Play Ground</h3>
+            <p>Welcome to our Library, a hub of knowledge and discovery. 
+                <br>Our facility offers an extensive collection of books, journals, and digital resources across various fields of study.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/cafeteria.png">
+            <h3>Taste & Healthy Foods</h3>
+            <p>Welcome to our Library, a hub of knowledge and discovery. 
+                <br>Our facility offers an extensive collection of books, journals, and digital resources across various fields of study.</p>
+        </div>
+    </div>
+    
+</section>
+    <!-------- Footer -------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Welcome to our institution, where tradition meets innovation. 
+           <br> We foster learning, research, and personal growth in a dynamic and inclusive environment.</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>  
+        <p>Made with <i class="fa fa-heart-o"></i> By GK</p>
+    </section>
+
+
+    <!-- JavaScript for Toggle Menu -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+</body>
+</html>
